@@ -235,4 +235,19 @@ main {
     .footer-text {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    @media(min-width: 850px){
+        main {
+            text-align: left;
+        }
+        .project {
+            grid-template-columns: 1fr 1fr;
+        }
+        .project img {
+            grid-row: auto;
+        }
+        .project ul {
+            justify-content: flex-start;
+        }
+    }
 }
