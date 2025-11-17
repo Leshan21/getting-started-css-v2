@@ -93,13 +93,7 @@ ul svg {
   height: 36px;
 }
 
-.social {
-  fill: var(--onyx);
-}
 
-.social:hover {
-  fill: var(--white);
-}
 
 .wrapper {
   max-width: 1200px;
@@ -152,7 +146,7 @@ footer {
 }
 
 .icons .social {
-  fill: var(--onyx);
+  fill: var(--ld-blue);
 }
 
 .icons .social:hover {
