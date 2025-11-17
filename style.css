@@ -29,6 +29,7 @@ body {
 /* make sure images don't exceed the width of the window */
 img {
   max-width: 100%;
+  border-radius: var(--corners);
 }
 
 h1 {
@@ -38,4 +39,25 @@ h1 {
 
 h2 {
   margin:0;
+  font-size: var(--base-font-size);
+  text-transform: uppercase;
+  color: var(--windsurfing);
+  letter-spacing: 0.25em;
 }
+
+h3{
+    margin: 0;
+}
+
+p {
+    line-height: 1.5; /* base on font size*/
+}
+
+a {
+    color: var(--windsurfing);
+}
+
+a:hover {
+    color: var(--marina);
+}
+
